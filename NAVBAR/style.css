@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aqua;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: yellow;
+    padding: 8px;
+    align-items: center;
+    width: 50%;
+
+}
+.logo{
+    border: 1px solid lightseagreen;
+    border-radius: 8px;
+}
+.navbarContent{
+    display: flex;
+}
+li{
+    list-style-type: none;
+    margin: 15px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+a:hover{
+    background-color: lightyellow;
+    padding: 10px;
+    border-radius: 20px;
+    /* transition: all 1.3s ease-in-out; */
+}
+a:visited{
+    color: lightcoral;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
