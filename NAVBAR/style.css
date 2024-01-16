@@ -5,14 +5,19 @@
 body{
     background-color: aqua;
 }
+h2{
+    color: blue;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 40px;
+}
 .navbar{
     display: flex;
     justify-content: space-between;
     background-color: yellow;
     padding: 8px;
     align-items: center;
-    width: 50%;
-
 }
 .logo{
     border: 1px solid lightseagreen;
@@ -40,8 +45,3 @@ a:visited{
     color: lightcoral;
 }
 
-h2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
